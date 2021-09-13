@@ -74,6 +74,10 @@ p {
 
 
 
+
+
+
+
 /* Header section */
 #header {
 	position: fixed;
@@ -269,6 +273,51 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
+
+#hero .container-newsletter {
+	padding: 100px 40px;
+	text-align: right;
+	color: white;
+}
+#hero .container-newsletter h1 {
+	font-size: 40px;
+	justify-content: right;
+	text-align: right;
+}
+#hero .email-box {
+	height: 40px;
+	display: flex;
+	justify-content: right;
+}
+#hero .email-box i {
+	background: #2f3542;
+	width: 40px;
+	line-height: 40px;
+}
+#hero .tbox,.btn {
+	border: none;
+	outline: none;
+}
+#hero .tbox {
+	width: 0px;
+	transition: 0.6s;
+}
+#hero .email-box:hover > .tbox,.tbox:focus {
+	width: 260px;
+	padding: 0 10px;
+}
+#hero .btn {
+	background: seagreen;
+	color: white;
+	padding: 0 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+#hero
+
+
+
+
 
 /* End Hero Section */
 
